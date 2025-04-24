@@ -3,7 +3,7 @@ import { CryptoAsset } from "../types/crypto";
 export const sampleData: CryptoAsset[] = [
     {
         id: 1,
-        logo: "https://cryptologos.cc/logos/bitcoin-btc-logo.png",
+        logo: "./media/images/Bitcoin.svg.png",
         name: "Bitcoin",
         symbol: "BTC",
         price: 93759.48,
@@ -14,7 +14,83 @@ export const sampleData: CryptoAsset[] = [
         volume24h: 43874950947,
         circulatingSupply: 19850000,
         maxSupply: 21000000,
-        chartImage: "/btc-chart.png"
+        chartImage: "./media/images/chart_1.png"
     },
     // Add 4 more coins similarly
+    {
+        id: 2,
+        logo: "./media/images/Ethereum.png",
+        name: "Ethereum",
+        symbol: "ETH",
+        price: 4600.12,
+        change1h: -0.21,
+        change24h: 1.45,
+        change7d: 5.67,
+        marketCap: 545000000000,
+        volume24h: 25000000000,
+        circulatingSupply: 120000000,
+        maxSupply: 21000000,
+        chartImage: "./media/images/chart_2.png"
+    },
+    {
+        id: 3,
+        logo: "./media/images/Tether.png",
+        name: "Tether",
+        symbol: "USDT",
+        price: 1.00,
+        change1h: 0.01,
+        change24h: 0.02,
+        change7d: 0.03,
+        marketCap: 68000000000,
+        volume24h: 50000000000,
+        circulatingSupply: 68000000000,
+        maxSupply: 100000000000,
+        chartImage: "./media/images/chart_3.png"
+    },
+    {
+        id: 4,
+        logo:"./media/images/XRP.png",
+        name: "XRP",
+        symbol: "ADA",
+        price: 2.50,
+        change1h: 0.10,
+        change24h: 0.20,
+        change7d: 1.50,
+        marketCap: 80000000000,
+        volume24h: 2000000000,
+        circulatingSupply: 32000000000,
+        maxSupply: 45000000000,
+        chartImage: "./media/images/chart_1.png"
+    },
+    {
+        id: 5,
+        logo: "./media/images/BNB.png",
+        name: "BNB",
+        symbol: "SOL",
+        price: 150.00,
+        change1h: -0.50,
+        change24h: 2.00,
+        change7d: 3.50,
+        marketCap: 50000000000,
+        volume24h: 1000000000,
+        circulatingSupply: 3000000000,
+        maxSupply: 5000000000,
+        chartImage: "./media/images/chart_5.png"
+    },
+    {
+        id: 6,
+        logo: "./media/images/Solana.png",
+        name: "Solana",
+        symbol: "XRP",
+        price: 0.85,
+        change1h: 0.05,
+        change24h: 0.10,
+        change7d: 0.20,
+        marketCap: 40000000000,
+        volume24h: 1500000000,
+        circulatingSupply: 50000000000,
+        maxSupply: 100000000000,
+        chartImage: "./media/images/chart_2.png"
+    },
+    
 ];

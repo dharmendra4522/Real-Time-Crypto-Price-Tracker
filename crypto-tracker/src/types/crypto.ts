@@ -11,5 +11,5 @@ export interface CryptoAsset {
     volume24h: number;
     circulatingSupply: number;
     maxSupply: number;
-    chartImage: string;
+    chartImage?: string; // Allow chartImage to be optional or undefined
 }
